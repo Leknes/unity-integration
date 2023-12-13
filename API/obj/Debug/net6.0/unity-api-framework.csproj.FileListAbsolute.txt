@@ -1,0 +1,14 @@
+D:\GitHub\unity-api-framework\bin\Debug\net6.0\unity-api-framework.deps.json
+D:\GitHub\unity-api-framework\bin\Debug\net6.0\unity-api-framework.dll
+D:\GitHub\unity-api-framework\bin\Debug\net6.0\unity-api-framework.pdb
+D:\GitHub\unity-api-framework\bin\Debug\net6.0\unity-api-framework.xml
+D:\GitHub\unity-api-framework\obj\Debug\net6.0\unity-api-framework.csproj.AssemblyReference.cache
+D:\GitHub\unity-api-framework\obj\Debug\net6.0\unity-api-framework.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHub\unity-api-framework\obj\Debug\net6.0\unity-api-framework.AssemblyInfoInputs.cache
+D:\GitHub\unity-api-framework\obj\Debug\net6.0\unity-api-framework.AssemblyInfo.cs
+D:\GitHub\unity-api-framework\obj\Debug\net6.0\unity-api-framework.csproj.CoreCompileInputs.cache
+D:\GitHub\unity-api-framework\obj\Debug\net6.0\unity-api-framework.dll
+D:\GitHub\unity-api-framework\obj\Debug\net6.0\refint\unity-api-framework.dll
+D:\GitHub\unity-api-framework\obj\Debug\net6.0\unity-api-framework.xml
+D:\GitHub\unity-api-framework\obj\Debug\net6.0\unity-api-framework.pdb
+D:\GitHub\unity-api-framework\obj\Debug\net6.0\ref\unity-api-framework.dll
