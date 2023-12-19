@@ -1,0 +1,10 @@
+<Project>
+    <PropertyGroup>
+        <UnityVersion>2022.3.5f1</UnityVersion>
+        <!-- or -->
+        <UnityProjectPath>$(MSBuildProjectDirectory)\relative\path\to\UnityProject</UnityProjectPath>
+		<RepositoryUrl>https://github.com/Leknes/unity-integration</RepositoryUrl>
+	</PropertyGroup>
+</Project>
+
+<Import Project="$([MSBuild]::GetPathOfFileAbove('Directory.Build.props', '$(MSBuildThisFileDirectory)../'))" />
