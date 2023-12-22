@@ -1,0 +1,113 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Senkel.Core.Measuring</name>
+    </assembly>
+    <members>
+        <member name="T:Senkel.IReadOnlyStopwatch">
+            <summary>
+            Represents a stopwatch that exposes the measured time, but does not grant access to manipulating the stopwatch.
+            </summary>
+        </member>
+        <member name="P:Senkel.IReadOnlyStopwatch.Elapsed">
+            <summary>
+            How much time has been measured by the stopwatch.
+            </summary>
+        </member>
+        <member name="P:Senkel.IReadOnlyStopwatch.Running">
+            <summary>
+            Indicates if the stopwatch is currently running.
+            </summary>
+        </member>
+        <member name="T:Senkel.IStopwatch">
+            <summary>
+            Represents a stopwatch that can be started, stopped and reset.
+            </summary>
+        </member>
+        <member name="M:Senkel.IStopwatch.Start">
+            <summary>
+            Starts or resumes the measurement of the stopwatch.
+            </summary>
+        </member>
+        <member name="M:Senkel.IStopwatch.Stop">
+            <summary>
+            Stops the measurement of the stopwatch, but should not reset the elapsed time.
+            </summary>
+        </member>
+        <member name="M:Senkel.IStopwatch.Reset">
+            <summary>
+            Stops the measurement of the stopwatch and resets the elapsed time.
+            </summary>
+        </member>
+        <member name="M:Senkel.IStopwatch.Restart">
+            <summary>
+            Resets the elapsed time and restarts the stopwatch.
+            </summary>
+        </member>
+        <member name="T:Senkel.OffsetStopwatch">
+            <summary>
+            Represents a stopwatch that measures time with an offset that is initially set.
+            </summary>
+        </member>
+        <member name="P:Senkel.OffsetStopwatch.Elapsed">
+            <summary>
+            How much time has been measured by the stopwatch with the initially set offset added.
+            </summary>
+        </member>
+        <member name="P:Senkel.OffsetStopwatch.Running">
+            <inheritdoc/>
+        </member>
+        <member name="M:Senkel.OffsetStopwatch.#ctor(Senkel.IStopwatch,System.TimeSpan)">
+            <summary>
+            Initializes a new <see cref="T:Senkel.OffsetStopwatch"/>
+            </summary>
+            <param name="stopwatch"></param>
+            <param name="elapsedOffset"></param>
+        </member>
+        <member name="M:Senkel.OffsetStopwatch.Reset">
+            <inheritdoc/>
+        </member>
+        <member name="M:Senkel.OffsetStopwatch.Restart">
+            <inheritdoc/>
+        </member>
+        <member name="M:Senkel.OffsetStopwatch.Start">
+            <inheritdoc/>
+        </member>
+        <member name="M:Senkel.OffsetStopwatch.Stop">
+            <inheritdoc/>
+        </member>
+        <member name="T:Senkel.StopwatchAdapter">
+            <summary>
+            Represents an adapter that implements the <see cref="T:Senkel.IStopwatch"/> interface based on an <see cref="T:System.Diagnostics.Stopwatch"/> object.
+            </summary>
+        </member>
+        <member name="M:Senkel.StopwatchAdapter.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Senkel.StopwatchAdapter"/> class that is based on a new <see cref="T:System.Diagnostics.Stopwatch"/> instance.
+            </summary>
+        </member>
+        <member name="M:Senkel.StopwatchAdapter.#ctor(System.Diagnostics.Stopwatch)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Senkel.StopwatchAdapter"/> class that is based the specified stopwatch.
+            </summary>
+        </member>
+        <member name="P:Senkel.StopwatchAdapter.Elapsed">
+            <inheritdoc/>
+        </member>
+        <member name="P:Senkel.StopwatchAdapter.Running">
+            <inheritdoc/>
+        </member>
+        <member name="M:Senkel.StopwatchAdapter.Reset">
+            <inheritdoc/>
+        </member>
+        <member name="M:Senkel.StopwatchAdapter.Restart">
+            <inheritdoc/>
+        </member>
+        <member name="M:Senkel.StopwatchAdapter.Start">
+            <inheritdoc/>
+        </member>
+        <member name="M:Senkel.StopwatchAdapter.Stop">
+            <inheritdoc/>
+        </member>
+    </members>
+</doc>

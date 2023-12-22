@@ -5,6 +5,6 @@
         <UnityProjectPath>$(MSBuildProjectDirectory)\relative\path\to\UnityProject</UnityProjectPath>
 		<RepositoryUrl>https://github.com/Leknes/unity-integration</RepositoryUrl>
 	</PropertyGroup>
-</Project>
 
-<Import Project="$([MSBuild]::GetPathOfFileAbove('Directory.Build.props', '$(MSBuildThisFileDirectory)../'))" />
+	<Import Project="$([MSBuild]::GetPathOfFileAbove('Directory.Build.props', '$(MSBuildThisFileDirectory)../'))" />
+</Project>

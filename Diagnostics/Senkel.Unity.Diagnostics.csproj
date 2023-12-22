@@ -1,30 +1,16 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFrameworks>net8.0;netstandard2.1</TargetFrameworks>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
-    <OutputType>Library</OutputType>
     <PackageId>Senkel.Diagnostics</PackageId>
-    <Authors>Leonhard Senkel</Authors>
-    <Company>Leonhard Senkel</Company>
-    <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageDescription>A wrapper library of the newtonsoft json library integrated into my serialization framework.</PackageDescription>
-    <GenerateDocumentationFile>true</GenerateDocumentationFile>
   </PropertyGroup>
-
-  <ItemGroup>
-    <None Include="..\.editorconfig" Link=".editorconfig" />
-  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Unity3D" Version="2.1.3" />
   </ItemGroup>
 
   <ItemGroup>
-    <Reference Include="Senkel.Model.Measuring">
-      <HintPath>..\..\Model\Measuring\bin\Debug\net6.0\Senkel.Model.Measuring.dll</HintPath>
-    </Reference>
+    <ProjectReference Include="..\..\Core\Measuring\Senkel.Core.Measuring.csproj" />
   </ItemGroup>
-
+ 
 </Project>

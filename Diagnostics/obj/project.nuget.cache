@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "U5P+Z3PixoF4LGHGL04mwQduvNBY1TrehPbyiT7jZ1Fe4IWCxMl829T5CW9fEk0pBmJe5j6MoOw4Ax61F+DPFQ==",
+  "success": true,
+  "projectFilePath": "D:\\Programming\\C#\\Senkel\\Unity\\Diagnostics\\Senkel.Unity.Diagnostics.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Leonhard\\.nuget\\packages\\unity3d\\2.1.3\\unity3d.2.1.3.nupkg.sha512"
+  ],
+  "logs": []
+}
