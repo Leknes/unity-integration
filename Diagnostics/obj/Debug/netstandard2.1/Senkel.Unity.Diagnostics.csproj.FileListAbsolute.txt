@@ -21,3 +21,12 @@ D:\Programming\C#\Senkel\Unity\Diagnostics\bin\Debug\netstandard2.1\Senkel.Compa
 D:\Programming\C#\Senkel\Unity\Diagnostics\bin\Debug\netstandard2.1\Senkel.Compatibility.RequiredModifier.xml
 D:\Programming\C#\Senkel\Unity\Diagnostics\bin\Debug\netstandard2.1\Senkel.Compatibility.NullableAttributes.pdb
 D:\Programming\C#\Senkel\Unity\Diagnostics\bin\Debug\netstandard2.1\Senkel.Compatibility.NullableAttributes.xml
+C:\Users\Leonhard\Documents\Programming\C#\Senkel\Unity\Diagnostics\obj\Debug\netstandard2.1\Senkel.Unity.Diagnostics.csproj.AssemblyReference.cache
+C:\Users\Leonhard\Documents\Programming\C#\Senkel\Unity\Diagnostics\obj\Debug\netstandard2.1\Senkel.Unity.Diagnostics.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Leonhard\Documents\Programming\C#\Senkel\Unity\Diagnostics\obj\Debug\netstandard2.1\Senkel.Unity.Diagnostics.AssemblyInfoInputs.cache
+C:\Users\Leonhard\Documents\Programming\C#\Senkel\Unity\Diagnostics\obj\Debug\netstandard2.1\Senkel.Unity.Diagnostics.AssemblyInfo.cs
+C:\Users\Leonhard\Documents\Programming\C#\Senkel\Unity\Diagnostics\obj\Debug\netstandard2.1\Senkel.Unity.Diagnostics.csproj.CoreCompileInputs.cache
+C:\Users\Leonhard\Documents\Programming\C#\Senkel\Unity\Diagnostics\obj\Debug\netstandard2.1\Senkel.Unity.Diagnostics.sourcelink.json
+C:\Users\Leonhard\Documents\Programming\C#\Senkel\Unity\Diagnostics\obj\Debug\netstandard2.1\Senkel.Unity.Diagnostics.dll
+C:\Users\Leonhard\Documents\Programming\C#\Senkel\Unity\Diagnostics\obj\Debug\netstandard2.1\Senkel.Unity.Diagnostics.xml
+C:\Users\Leonhard\Documents\Programming\C#\Senkel\Unity\Diagnostics\obj\Debug\netstandard2.1\Senkel.Unity.Diagnostics.pdb

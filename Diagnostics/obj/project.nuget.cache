@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "U5P+Z3PixoF4LGHGL04mwQduvNBY1TrehPbyiT7jZ1Fe4IWCxMl829T5CW9fEk0pBmJe5j6MoOw4Ax61F+DPFQ==",
+  "dgSpecHash": "GGTBH6dx8vffWZ1IEHwio4ycZTB/PZIAR3tJzPT7sLT32f0sWZjmuaj40QpE4oScTLpxAeATUXyFXjo6XqAvoQ==",
   "success": true,
-  "projectFilePath": "D:\\Programming\\C#\\Senkel\\Unity\\Diagnostics\\Senkel.Unity.Diagnostics.csproj",
+  "projectFilePath": "C:\\Users\\Leonhard\\Documents\\Programming\\C#\\Senkel\\Unity\\Diagnostics\\Senkel.Unity.Diagnostics.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Leonhard\\.nuget\\packages\\unity3d\\2.1.3\\unity3d.2.1.3.nupkg.sha512"
   ],
